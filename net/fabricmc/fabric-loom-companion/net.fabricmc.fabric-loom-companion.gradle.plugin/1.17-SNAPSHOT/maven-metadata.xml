@@ -3,16 +3,16 @@
   <groupId>net.fabricmc.fabric-loom-companion</groupId>
   <artifactId>net.fabricmc.fabric-loom-companion.gradle.plugin</artifactId>
   <versioning>
-    <lastUpdated>20260706151844</lastUpdated>
+    <lastUpdated>20260706153126</lastUpdated>
     <snapshot>
-      <timestamp>20260706.151844</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20260706.153126</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.17-20260706.151844-1</value>
-        <updated>20260706151844</updated>
+        <value>1.17-20260706.153126-2</value>
+        <updated>20260706153126</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

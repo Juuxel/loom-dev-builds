@@ -1,0 +1,228 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.fabricmc",
+    "module": "fabric-loom",
+    "version": "1.17-ii-validation-3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fabric-loom-1.17-ii-validation-3.jar",
+          "url": "fabric-loom-1.17-ii-validation-3.jar",
+          "size": 1433257,
+          "sha512": "fc634e50a2c440b183987e32864e1c4104a19453020266db0cfcdaa695b0188cf0c50675ccdfb990355371615cfa7e0835f4b31f8a3e05b9ec3f3fd575c90a32",
+          "sha256": "b4a7330f9f0ac33a377a4f8e21157ce5dbdc35604e7c5d36ce6d6bee556979cf",
+          "sha1": "c2f92cb8fd06d929cbf0d5b42ac1fc1004704aea",
+          "md5": "81485af1f50710c088e837c50a53d663"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.plugin.api-version": "9.5.0",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.14.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.10.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.10.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.10.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.10.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.10.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "stitch",
+          "version": {
+            "requires": "0.6.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "enigma"
+            },
+            {
+              "group": "*",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-remapper",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "class-tweaker",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "mapping-io",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "lorenz-tiny",
+          "version": {
+            "requires": "4.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loom-native",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "mercury",
+          "version": {
+            "requires": "0.4.3"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "mercurymixin",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.unpick",
+          "module": "unpick",
+          "version": {
+            "requires": "3.0.0-beta.13"
+          }
+        },
+        {
+          "group": "net.fabricmc.unpick",
+          "module": "unpick-format-utils",
+          "version": {
+            "requires": "3.0.0-beta.13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-metadata-jvm",
+          "version": {
+            "requires": "2.3.20"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-loom-1.17-ii-validation-3.jar",
+          "url": "fabric-loom-1.17-ii-validation-3.jar",
+          "size": 1433257,
+          "sha512": "fc634e50a2c440b183987e32864e1c4104a19453020266db0cfcdaa695b0188cf0c50675ccdfb990355371615cfa7e0835f4b31f8a3e05b9ec3f3fd575c90a32",
+          "sha256": "b4a7330f9f0ac33a377a4f8e21157ce5dbdc35604e7c5d36ce6d6bee556979cf",
+          "sha1": "c2f92cb8fd06d929cbf0d5b42ac1fc1004704aea",
+          "md5": "81485af1f50710c088e837c50a53d663"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-loom-1.17-ii-validation-3-sources.jar",
+          "url": "fabric-loom-1.17-ii-validation-3-sources.jar",
+          "size": 860385,
+          "sha512": "be02bf36b2d9558c769b144ec06316f00f9f40dc7695562dacfa9dd70a449b68f1325eecef5d60f47a20588e255b49dd8ce5e27d564f692fce128d6c1fce14a2",
+          "sha256": "d63e2b0a7006afb22e4729c14f2474348260382e6ff9b4585bfde8d721522879",
+          "sha1": "1daa21ed70b08ee178d1e11d645363c1c881a7bf",
+          "md5": "a0df71175f0b87297a4e1014ca0ec9af"
+        }
+      ]
+    }
+  ]
+}
