@@ -3,32 +3,32 @@
   <groupId>net.fabricmc</groupId>
   <artifactId>fabric-loom</artifactId>
   <versioning>
-    <lastUpdated>20260706150428</lastUpdated>
+    <lastUpdated>20260706151844</lastUpdated>
     <snapshot>
-      <timestamp>20260706.150428</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20260706.151844</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.17-20260706.150428-2</value>
-        <updated>20260706150428</updated>
+        <extension>pom</extension>
+        <value>1.17-20260706.151844-1</value>
+        <updated>20260706151844</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.17-20260706.151844-1</value>
+        <updated>20260706151844</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.17-20260706.150428-2</value>
-        <updated>20260706150428</updated>
+        <value>1.17-20260706.151844-1</value>
+        <updated>20260706151844</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.17-20260706.150428-2</value>
-        <updated>20260706150428</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.17-20260706.150428-2</value>
-        <updated>20260706150428</updated>
+        <extension>jar</extension>
+        <value>1.17-20260706.151844-1</value>
+        <updated>20260706151844</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
